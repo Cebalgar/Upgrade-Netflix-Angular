@@ -1,0 +1,10 @@
+<div class="container">
+
+  <h3>{{gallery.title}}</h3>
+
+  <div class="movies" >
+      <div *ngFor="let image of gallery.movies">
+        <img src= "{{image.src}}" alt="{{image.alt}}">
+      </div>
+  </div>
+</div>

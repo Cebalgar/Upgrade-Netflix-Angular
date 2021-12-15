@@ -1,0 +1,17 @@
+.container{
+  padding: 40px;
+  position: relative;
+  h3{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .movies{
+    display: flex;
+        img{
+            margin: 4px;
+            height: 300px;
+            border-radius: 2px;;
+        }
+  }
+}

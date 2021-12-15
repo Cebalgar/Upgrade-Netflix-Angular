@@ -1,0 +1,19 @@
+<div class="content-footer">
+
+  <div class="rrss">
+    <div *ngFor="let red of footer.rrss">
+      <img src={{red.src}} alt={{red.alt}}>
+  </div>
+
+  <div class="services1">
+    <ul>
+      <li *ngFor="let servi of footer.services">
+        {{servi}}
+
+      </li>
+    </ul>
+  </div>
+
+</div>
+
+<p>{{footer.copyright}}</p>

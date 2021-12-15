@@ -1,0 +1,24 @@
+<nav>
+  <div class="logo">
+    <img class="netflix" src="{{header.logo.src}}" alt="{{header.logo.alt}}">
+  </div>
+
+  <div >
+    <ul class="menu">
+      <li class=" listado" *ngFor="let element of header.menu">
+        {{element}}
+
+      </li>
+    </ul>
+  </div>
+
+  <div>
+    <ul class="options">
+      <li *ngFor="let option of header.options">
+        <img class="services"src="{{option.src}}" alt="{{option.alt}}">
+      </li>
+    </ul>
+</div>
+
+
+</nav>
